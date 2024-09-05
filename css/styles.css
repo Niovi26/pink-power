@@ -16,6 +16,9 @@
  .header{
   text-align: center;
  }
+ .opening text{
+  text-align: center;
+ }
 
  .map-container {
     position: relative;
@@ -36,8 +39,7 @@
    background-color: rgb(120, 120, 196);
    padding: 10px 
 }
-
-#btn-chios {
+   #btn-chios {
    top:47%;
    left:70%; 
 }
