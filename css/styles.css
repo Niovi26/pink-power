@@ -1,0 +1,41 @@
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+  .btn {
+    background-color: rgb(255, 20, 141);
+    color: antiquewhite;
+  }
+ .h2 {
+    color: black;
+    font-weight: bold;
+    position: static;
+
+ }
+ .header{
+  text-align: center;
+ }
+
+ .map-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+ }
+
+ .hotspot {
+   border-radius: 100%;
+   padding: 10px;
+   border:none;
+   background-color: rgb(173, 173, 241);
+ }
+
+ .hotspot:hover {
+   background-color: rgb(120, 120, 196);
+ }
+
+#btn-chios {
+   position: absolute;
+   top: 20px;
+   left: 0px; 
+}
