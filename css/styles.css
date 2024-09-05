@@ -24,18 +24,28 @@
  }
 
  .hotspot {
+   position: absolute;
    border-radius: 100%;
-   padding: 10px;
+   padding: 8px;
+   transition: padding 0.5s ;
    border:none;
    background-color: rgb(173, 173, 241);
  }
 
  .hotspot:hover {
    background-color: rgb(120, 120, 196);
- }
+   padding: 10px 
+}
 
 #btn-chios {
-   position: absolute;
-   top: 20px;
-   left: 0px; 
+   top:47%;
+   left:70%; 
+}
+#btn-meteora {
+   top:29%;
+   left:22%;
+}
+#btn-tinos {
+   top: 57.5%;
+   left: 59.84%; 
 }
