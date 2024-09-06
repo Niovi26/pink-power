@@ -1,31 +1,40 @@
+body{
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
   }
-
+  background-color: aliceblue;
+  font-family:"Moderustic",'Times New Roman', Times, serif;
+ 
   .btn {
-    background-color: rgb(255, 20, 141);
+    background-color:darkcyan;
     color: antiquewhite;
   }
  .h2 {
     color: black;
     font-weight: bold;
     position: static;
-
- }
+    
+      font-family:"Moderustic",'Times New Roman', Times, serif;
+   }
  .header{
   text-align: center;
+  font-family:"Moderustic",'Times New Roman', Times, serif;
  }
  .opening text{
   text-align: center;
+  font-family:"Moderustic",'Times New Roman', Times, serif;
  }
-
+ 
+ 
  .map-container {
     position: relative;
     width: fit-content;
     margin: auto;
  }
-
+ .p{
+   font-family:"Moderustic",'Times New Roman', Times, serif;
+    }
  .hotspot {
    position: absolute;
    border-radius: 100%;
@@ -50,4 +59,6 @@
 #btn-tinos {
    top: 57.5%;
    left: 59.84%; 
+}
+
 }
