@@ -1,11 +1,17 @@
 body{
-.starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
-  }
   background-color: aliceblue;
   font-family:"Moderustic",'Times New Roman', Times, serif;
- 
+}
+
+.container {
+   padding: 50px;
+}
+
+.starter-template {
+   padding: 3rem 1.5rem;
+   text-align: center;
+ }
+
   .btn {
     background-color:darkcyan;
     color: antiquewhite;
@@ -61,4 +67,13 @@ body{
    left: 59.84%; 
 }
 
+.carousel-item {
+   height: 400px
 }
+
+.carousel-item-img {
+   margin: auto;
+   height: 100%;
+   display: block;
+}
+
