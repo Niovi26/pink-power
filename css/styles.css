@@ -7,6 +7,10 @@ body{
    padding: 50px;
 }
 
+.header {
+   padding: 20px
+}
+
 .starter-template {
    padding: 3rem 1.5rem;
    text-align: center;
@@ -27,7 +31,7 @@ body{
   text-align: center;
   font-family:"Moderustic",'Times New Roman', Times, serif;
  }
- .opening text{
+ .opening-text{
   text-align: center;
   font-family:"Moderustic",'Times New Roman', Times, serif;
  }
@@ -38,15 +42,22 @@ body{
     width: fit-content;
     margin: auto;
  }
+
+ .map-container img {
+   height: 70vh;
+ }
+
  .p{
    font-family:"Moderustic",'Times New Roman', Times, serif;
     }
+
  .hotspot {
    position: absolute;
    border-radius: 100%;
    padding: 8px;
    transition: padding 0.5s ;
    border:none;
+   box-shadow: 0 0 20px 4px #ebebe2;
    background-color: rgb(173, 173, 241);
  }
 
