@@ -56,19 +56,18 @@ body{
    border-radius: 100%;
    padding: 8px;
    transition: padding 0.5s ;
-   border:none;
-   box-shadow: 0 0 20px 4px #ebebe2;
-   background-color: rgb(173, 173, 241);
+   border-color: blue;
+   border-style: solid;
+   background-color: yellow;
  }
 
  .hotspot:hover {
    background-color: rgb(120, 120, 196);
    padding: 10px 
 }
-   #btn-chios {
+#btn-chios {
    top:47%;
    left:70%; 
-   
    }
 
 #btn-meteora {
