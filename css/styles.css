@@ -3,6 +3,10 @@ body{
   font-family:"Moderustic",'Times New Roman', Times, serif;
 }
 
+.navbar {
+   background-color: #4d78ef61;
+}
+
 .container {
    padding: 50px;
 }
@@ -17,7 +21,7 @@ body{
  }
 
   .btn {
-    background-color:darkcyan;
+    background-color:rgb(0, 44, 139);
     color: antiquewhite;
   }
  .h2 {
@@ -91,4 +95,32 @@ body{
 
 .accordion-header{
    font-weight: bold;
+}
+
+#about-us-img{
+   height: 400px;
+   display: block;
+   margin: auto
+}
+
+.city-title {
+   margin: auto;
+   width: fit-content;
+   padding-bottom: 30px
+}
+
+.city-info-list {
+   padding-bottom: 40px
+}
+.city-info-list li {
+   padding-bottom: 10px
+}
+
+.card-container {
+   display: flex
+}
+
+.card-container .card {
+padding: 10px;
+margin: 5px
 }
